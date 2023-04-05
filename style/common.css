@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/*全体CSS*/
+body{
+  /*フォントの指定*/
+  font-family: "Yu Gothic",YuGothic,"ＭＳ Ｐゴシック",Meiryo;
+  font-size: 16px;
+  background-color: #f9f4ef;
+  background-repeat: repeat-y;
+  color: #716040;
+}
+/*リセットCSS*/
+h1,h2,h3,h4,p,ul,li{
+  margin: 0;
+  padding: 0;
+}
+/*webページのセンタリングCSS*/
+#wrap{
+  width: 980px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*ヘッダーCSS*/
+#head{
+  background-color: #eaddcf;
+  overflow: hidden;
+}
+#head_meg{
+  background-color: #8c7851;
+  color: #eaeaea;
+  padding: 10px;
+}
+#head_img{
+  margin-top: 20px;
+}
+@font-face {
+  font-family: 'Dela Gothic One';
+  src: url("../fonts/DelaGothicOne-Regular.ttf") format(‘truetype’);
+  }
+h1{
+  font-family: 'Dela Gothic One';
+  font-size: 48px;
+}
+
+/*ナビゲーションCSS*/
+nav{
+  padding-left: 10px;
+  padding-right:  10px;
+  height: 50px;
+  border-top: solid 1px #000000; /*枠線(上部)指定*/
+  border-bottom: solid 1px #000000; /*枠線(下部)指定*/
+}
+nav ul{
+  list-style-type: none;
+}
+nav li{
+  width: 190px;
+  float: left;
+}
+nav a{
+  display: block;
+  line-height: 50px;
+  text-align: center;
+  color: #716040;
+  text-decoration: none;
+  background-color: #eaddcf;
+}
+nav a:hover{
+  color: #fffffe;
+  font-weight: bold;
+  background-color: #8c7851;
+}
+
+/*メインコンテンツCSS*/
+main{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  background-color: #eaddcf;
+  overflow: hidden;
+}
+#timeline {
+  margin-left: 180px;
+  margin-bottom: 50px;
+}
+h2{
+  font-size: 36px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  line-height: 60px;
+  background-size: 100%;
+}
+h3{
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  line-height: 60px;
+  background-size: 100%;
+}
+p{
+  font-size: 24px;
+  margin: 10px;
+  line-height: 30px;
+  background-size: 100%;
+}
+
+/*スクロールボタンCSS*/
+#page_top{
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  right: 30px;
+  bottom: 0;
+  opacity: 1;
+}
+
+#page_top :hover{
+  opacity: 0.7;
+  transform: scale(0.99);
+}
+#top_img{
+  width:100%;
+}
+
+/*フッターCSS*/
+#foot{
+  clear: both;
+  padding: 10px;
+  padding-right: 10px;
+  text-align: right;
+  background-size: 100%;
+  color: #eaddcf;
+  background-color: #8c7851;
+}
