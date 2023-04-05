@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/*CSS*/
+body{
+  font-family: "Yu Gothic",YuGothic,"ＭＳ Ｐゴシック",Meiryo;
+  font-size: 16px;
+  background-color: #f9f4ef;
+  background-repeat: repeat-y;
+  color: #716040;
+}
+/*リセットCSS*/
+h1,h2,h3,h4,p,ul,li{
+  margin: 0;
+  padding: 0;
+}
+/*webページのセンタリングCSS*/
+#wrap{
+  width: 980px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*メインコンテンツCSS*/
+main{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  background-color: #eaddcf;
+  overflow: hidden;
+}
+#timeline {
+  margin-left: 180px;
+  margin-bottom: 50px;
+}
+h2{
+  font-size: 36px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  line-height: 60px;
+  background-size: 100%;
+}
+h3{
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  line-height: 60px;
+  background-size: 100%;
+}
+p{
+  font-size: 24px;
+  margin: 10px;
+  line-height: 30px;
+  background-size: 100%;
+}
+

@@ -1,0 +1,10 @@
+/*フッターCSS*/
+#foot{
+  clear: both;
+  padding: 10px;
+  padding-right: 10px;
+  text-align: right;
+  background-size: 100%;
+  color: #eaddcf;
+  background-color: #8c7851;
+}

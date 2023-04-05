@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/*CSS*/
+body{
+  font-family: "Yu Gothic",YuGothic,"ＭＳ Ｐゴシック",Meiryo;
+  font-size: 16px;
+  background-color: #44646a;
+  background-repeat: repeat-y;
+  color: #c9cbd3;
+}
+/*リセットCSS*/
+h1,h2,h3,h4,p,ul,li{
+  margin: 0;
+  padding: 0;
+}
+/*webページのセンタリングCSS*/
+#wrap{
+  width: 980px;
+  margin: 0 auto;
+}
+/*ヘッダーCSS*/
+header{
+  background-color: #0d0f18;
+  overflow: hidden;
+}
+#logo{
+  display: block;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  float: left;
+  width: 172px;
+  height: 100px;
+}
+#head_meg{
+  margin-top: 20px;
+  margin-left: 70px;
+  float: left;
+}
+#link a{color: #50bda8}
+#link a:visited{color: #ff514d}
+h1{
+  font-size: 28px;
+}
+/*ナビゲーションCSS*/
+nav{
+  padding-left: 10px;
+  padding-right:  10px;
+}
+nav ul{
+  list-style-type: none;
+}
+nav li{
+  width: 240px;
+  height: 60px;
+  float: left;
+}
+nav a{
+  display: block;
+  line-height: 60px;
+  text-align: center;
+  color: #0d0f18;
+  text-decoration: none;
+  background-color: #50bda8;
+}
+nav a:hover{
+  color: #0d0f18;
+  font-weight: bold;
+  background-color: #ff514d;
+}
+/*メインコンテンツCSS*/
+main{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  background-color: #0d0f18;
+  overflow: hidden;
+}
+h2{
+  font-size: 24px;
+  width: 400px;
+  height: 60px;
+  margin-bottom: 20px;
+  line-height: 60px;
+  text-align: center;
+  background-image: url(../images/h2.png);
+  background-size: 100%;
+}
+h3{
+  width: 220px;
+  height: 70px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 70px;
+  text-align: center;
+  overflow: hidden;
+  background-image: url(../images/frame.png);
+  background-size: 100%;
+}
+h4{
+  width: 200px;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #0d0f18;
+  text-align: center;
+  border-radius: 10px;
+}
+h5{
+  width: 100px;
+  height: 20px;
+  margin: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #0d0f18;
+  text-align: center;
+  border-radius: 10px;
+}
+#link{
+  width:500px;
+  padding: 10px;
+  padding-left: 40px;
+  margin: 10px;
+  margin-right: 20px;
+}
+#chara_img{
+  width: 200px;
+  height: 150px;
+}
+#stage_img{
+  width: 90px;
+  height: 90px;
+  margin-left: 25px;
+}
+#classic{clear:both; }
+#classic p{color: #0d0f18;}
+.charas{
+  width:200px;
+  height: 360px;
+  padding: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #50bda8;
+  float: left;
+}
+.stage{
+  width:140px;
+  height: 280px;
+  padding: 5px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #50bda8;
+  float: left;
+}
+.stage_br{
+  width:140px;
+  height: 280px;
+  padding: 5px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #0d0f18;
+  float: left;
+}
+
+/*フッターCSS*/
+footer{
+  clear: both;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  padding-right: 5px;
+  text-align: right;
+  background-image: url(../images/foot.png);
+  background-size: 100%
+}

@@ -1,0 +1,45 @@
+/*ヘッダーCSS*/
+#head{
+  background-color: #eaddcf;
+  overflow: hidden;
+}
+#head_meg{
+  background-color: #8c7851;
+  color: #eaeaea;
+  padding: 10px;
+}
+#head_img{
+  margin-top: 20px;
+}
+h1{
+  font-size: 48px;
+}
+
+/*ナビゲーションCSS*/
+nav{
+  padding-left: 10px;
+  padding-right:  10px;
+  height: 50px;
+  border-top: solid 1px #000000; /*枠線(上部)指定*/
+  border-bottom: solid 1px #000000; /*枠線(下部)指定*/
+}
+nav ul{
+  list-style-type: none;
+}
+nav li{
+  width: 190px;
+  float: left;
+}
+nav a{
+  display: block;
+  line-height: 50px;
+  text-align: center;
+  color: #716040;
+  text-decoration: none;
+  background-color: #eaddcf;
+}
+nav a:hover{
+  color: #fffffe;
+  font-weight: bold;
+  background-color: #8c7851;
+}
